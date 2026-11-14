@@ -100,14 +100,24 @@ section {padding:75px 8%;}
 }
 .about h2 {font-size:30px;color:var(--dark);margin-bottom:15px;}
 .about p {color:#626b63;margin-bottom:15px;}
+
 .about-visual {
-  background:var(--green);
-  color:white;
-  padding:45px 30px;
-  border-radius:12px;
-  text-align:center;
-  border-bottom:7px solid var(--gold);
+  background: none;
+  padding: 0;
+  border-radius: 12px;
+  border-bottom: none;
+  overflow: hidden;
+  min-height: 320px;
 }
+
+.about-visual img {
+  width: 100%;
+  height: 100%;
+  min-height: 320px;
+  object-fit: cover;
+  display: block;
+}
+
 .about-visual strong {font-size:55px;color:var(--gold);}
 .units {background:var(--cream);}
 .grid {
@@ -219,11 +229,13 @@ style="width:55px;height:55px;object-fit:contain;flex-shrink:0;">    <div>
         Kabupaten Bandung, Jawa Barat.
       </p>
     </div>
-    <div class="about-visual">
-      <strong>KH</strong>
-      <h2>Berilmu, Beriman dan Berakhlak</h2>
-      <p>Mewujudkan generasi penerus yang cinta Al-Qur'an.</p>
-    </div>
+   
+<div class="about-visual">
+  <img
+    src="assets/gedung-asrama.jpg"
+    alt="Gedung Asrama Pondok Pesantren Al-Qur'an Khoirul Huda">
+</div>
+
   </div>
 </section>
 

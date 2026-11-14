@@ -238,42 +238,110 @@ style="width:55px;height:55px;object-fit:contain;flex-shrink:0;">    <div>
 
   </div>
 </section>
-<section id="pimpinan" style="padding:65px 6%;background:#f7f7f2;">
-  <div style="max-width:1100px;margin:auto;display:flex;flex-wrap:wrap;align-items:center;gap:35px;">
 
-    <div style="flex:1 1 280px;text-align:center;">
-      <img src="assets/pimpinan.jpg"
-           alt="Ketua Yayasan Khoirul Huda"
-           style="width:100%;max-width:330px;height:380px;object-fit:cover;border-radius:16px;border:5px solid #d9ae32;">
+<style>
+.founders-section {
+  padding: 75px 6%;
+  background: #f7f7f2;
+}
+.founders-container {
+  max-width: 1150px;
+  margin: auto;
+}
+.founders-heading {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.founders-heading small {
+  color: #08783d;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.founders-heading h2 {
+  color: #064d2b;
+  font-size: 30px;
+  margin: 12px 0;
+}
+.founders-heading p {
+  color: #626b63;
+}
+.founders-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+}
+.founder-card {
+  background: white;
+  border-radius: 16px;
+  overflow: hidden;
+  text-align: center;
+  padding: 18px;
+  border-bottom: 5px solid #d9ae32;
+  box-shadow: 0 5px 20px rgba(0,0,0,.07);
+}
+.founder-card img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  object-position: center 25%;
+  border-radius: 10px;
+}
+.founder-card h3 {
+  color: #064d2b;
+  font-size: 19px;
+  line-height: 1.5;
+  margin: 17px 0 8px;
+}
+.founder-card p {
+  color: #a17a24;
+  font-weight: bold;
+  margin: 0;
+}
+@media(max-width: 768px) {
+  .founders-grid {
+    grid-template-columns: 1fr;
+    max-width: 380px;
+    margin: auto;
+  }
+  .founder-card img {
+    height: 350px;
+  }
+}
+</style>
+
+<section id="pimpinan" class="founders-section">
+  <div class="founders-container">
+    <div class="founders-heading">
+      <small>PARA PENDIRI DAN PIMPINAN</small>
+      <h2>Tokoh Pendiri Khoirul Huda</h2>
+      <p>Dedikasi, perjuangan dan pengabdian dalam membangun generasi Qur'ani.</p>
     </div>
 
-    <div style="flex:1 1 350px;">
-      <small style="color:#08783d;font-weight:bold;letter-spacing:2px;">
-        PROFIL PIMPINAN
-      </small>
+    <div class="founders-grid">
+      <div class="founder-card">
+        <img src="assets/kh-jajang.jpg"
+             alt="KH. Jajang Rohmadin">
+        <h3>Almarhum Al-Maghfurlahu KH. Jajang Rohmadin</h3>
+        <p>Pendiri</p>
+      </div>
 
-      <h2 style="color:#064d2b;font-size:30px;margin:15px 0;">
-         H. Moch Khoerudin Ab, S.Pd.I
-      </h2>
+      <div class="founder-card">
+        <img src="assets/kh-ilyas.jpg"
+             alt="KH. Ilyas Badruzzaman">
+        <h3>Almarhum Al-Maghfurlahu KH. Ilyas Badruzzaman</h3>
+        <p>Pendiri</p>
+      </div>
 
-      <h3 style="color:#b58b20;font-size:18px;">
-        Ketua Yayasan & Pengasuh Pondok Pesantren
-      </h3>
-
-      <p style="color:#626b63;line-height:1.8;">
-        Memimpin dan mengembangkan Yayasan Pondok Pesantren
-        Al-Qur'an Khoirul Huda dalam mewujudkan pendidikan
-        Islam yang berkualitas, membangun generasi Qur'ani,
-        berilmu, beriman dan berakhlakul karimah.
-      </p>
-
-      <p style="color:#08783d;font-weight:bold;">
-        Berilmu, Beriman dan Berakhlak
-      </p>
+      <div class="founder-card">
+        <img src="assets/pimpinan.jpg"
+             alt="H. Moch Khoerudin Ab">
+        <h3>H. Moch Khoerudin Ab, S.Pd.I</h3>
+        <p>Pendiri, Ketua Yayasan &amp; Pengasuh</p>
+      </div>
     </div>
-
   </div>
 </section>
+
 
 
   
@@ -288,13 +356,20 @@ style="width:55px;height:55px;object-fit:contain;flex-shrink:0;">    <div>
       <h2 style="color:#064d2b;font-size:30px;">
         Perjalanan Berdirinya Khoirul Huda
       </h2>
-      <p style="color:#626b63;line-height:1.8;">
-        Pondok Pesantren Al-Qur'an Khoirul Huda didirikan
-        pada bulan Oktober 2018 oleh  H. Moch Khoerudin Ab, S.Pd.I
-        bersama kedua orang tua beliau, Almarhum Al-Maghfurlahu
-        KH. Jajang Rohmadin dan Almarhum Al-Maghfurlahu
-        KH. Ilyas Badruzzaman.
-      </p>
+      
+<p style="color:#626b63;line-height:1.9;">
+  Pondok Pesantren Al-Qur'an Khoirul Huda didirikan
+  pada bulan Oktober 2018 oleh H. Moch Khoerudin Ab, S.Pd.I
+  bersama kedua orang tua beliau, Almarhum Al-Maghfurlahu
+  KH. Jajang Rohmadin dan Almarhum Al-Maghfurlahu
+  KH. Ilyas Badruzzaman.
+
+  Berawal dari niat dan perjuangan untuk mengembangkan
+  pendidikan Islam, Khoirul Huda hadir sebagai lembaga
+  pendidikan dan pembinaan generasi Qur'ani yang berilmu,
+  beriman dan berakhlakul karimah.
+</p>
+
     </div>
 
     <div style="text-align:center;margin-bottom:35px;">
